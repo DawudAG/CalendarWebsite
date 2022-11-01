@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    test
+    <script>
+        // const data = {available: [2,4], people: ['d','g']};
+        // const options = {
+        //     method: 'POST',
+        //     headers: {
+        //         'Content-Type': 'application/json'
+        //     },
+        //     body: JSON.stringify(data)
+        // };
+        // fetch('/api', options);
+
+        getData()
+        .then(time => {
+        const data = time);
+        })
+        .catch(error => {
+        });
+        async function getData() {
+            const response = await fetch('/api')
+            const data = await response.json()
+            return(data)
+        }
+        console.log(data)
+    </script>
+</body>
+</html>
